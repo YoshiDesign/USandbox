@@ -23,7 +23,11 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 	
-	UPROPERTY(EditAnywhere) int32 velocity = 1;
+	UPROPERTY(EditAnywhere) int32 velocity = 2;
 	UPROPERTY(EditAnywhere) bool enemy = true;
 	UPROPERTY(EditAnywhere) float intensity = 1.0f;
+
+
 };
+
+

@@ -11,5 +11,6 @@ public class Learning4Target : TargetRules
 		DefaultBuildSettings = BuildSettingsVersion.V5;
 		IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_5;
 		ExtraModuleNames.Add("Learning4");
+		ExtraModuleNames.Add("EnhancedInput");
 	}
 }
